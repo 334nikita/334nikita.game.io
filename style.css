@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 30px;
+
+    color: white;
+}
+
+body {
+    background-image: url(img//Фон.png);
+    background-size: cover;
+}
+
+header {
+    font-size: 36px;
+
+}
+
+main {
+    padding: 50px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.menu {
+    margin: auto;
+}
+
+.btn {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin: 32px auto;
+    ;
+    padding: 8px;
+    ;
+    width: 250px;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.game-header {
+    display: flex;
+    align-items: center;
+}
+
+.reset {
+    width: 150px;
+}
+
+.lvl {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.null {
+    padding-top: 0px;
+}
+
+.game-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    width: 150px;
+    height: 290px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.rotate {
+    transform: perspective(210px) rotateY(180deg);
+    transition: 0.5s;
+}
+
+.model {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    down: 0;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.context {
+    font-size: 40px;
+}
