@@ -17,7 +17,8 @@
 
 body {
     background-image: url(img//Фон.png);
-    background-size: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -83,8 +84,8 @@ main {
 }
 
 .card {
-    width: 150px;
-    height: 290px;
+    width: 95px;
+    height: 160px;
     border-radius: 20px;
     background-size: cover;
     background-position: center;
@@ -101,13 +102,13 @@ main {
     height: 100vh;
     top: 0;
     left: 0;
-    down: 0;
     position: absolute;
     background-color: rgb(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    nav-down: 0;
 }
 
 .context {
